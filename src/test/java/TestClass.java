@@ -40,12 +40,12 @@ public class TestClass {
         /*System.out.println(tittle2);*/
        Assert.assertTrue("valida que contiene el texto ENVIADO",tittle2.contains("selenium"));
     };
-    /*@After
+    @After
     public void tearDown(){
-        /*driver.quit();
+        driver.quit();
     };
      @AfterClass
     public static void  tearDownAfterClass(){
          System.out.println("Finalizan tests");
-     };*/
+     };
 }
